@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+       >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How Much the product cost?"
+        android:textSize="20dp"
+        android:textColor="#EA0505"
+        android:background="@color/black"
+        android:layout_gravity="center"
+        />
+    <EditText
+        android:id="@+id/edSell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="30"
+        android:inputType="numberDecimal"
+        android:textColor="#BC0A0A"
+        android:hint="Buying price"
+        android:background="#ffffff"
+        android:layout_margin="30dp"
+    />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="How Much You Are Sell?"
+        android:textSize="20dp"
+        android:layout_margin="20dp"
+        android:textColor="#DF0A0A"
+        android:layout_gravity="center"
+        android:background="@color/black"
+        />
+    <EditText
+        android:id="@+id/edBuy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="numberDecimal"
+        android:hint="Selling price"
+        android:layout_margin="30dp"
+        android:textColor="#DF0A0A"
+        />
+
+    <Button
+        android:id="@+id/buttonCalculate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="count"
+        android:textColor="#08F33A"
+        android:textSize="30dp"
+        android:layout_margin="40dp"
+        />
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="20sp"
+        android:layout_margin="20dp"
+        android:textColor="@color/black"
+        />
+</LinearLayout>
